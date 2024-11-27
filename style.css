@@ -1,0 +1,124 @@
+body{
+    text-align: center;
+    background: linear-gradient(90deg,rgb(254, 154, 154),rgb(249, 172, 172),rgb(255, 218, 218));
+}
+#hd{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+form{
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid #848383;
+    max-width: 400px;
+    margin: 0 auto; 
+    padding: 20px;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #fa8ab9, #f14662);
+}
+
+label {
+    display: block;
+    margin-right: 340px; 
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: x-large;
+}
+input[type="text"], input[type="email"] ,input[type="tel"],select{
+    
+    width: 100%; 
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+}
+#Cancel{
+    /* height: 30px; */
+    width: 30%; 
+    margin-top: 10px;
+    background-color: #16630a;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
+#Cancel:hover{
+    background-color: hsl(130, 93%, 11%);
+}
+button {
+    width: 54%; 
+    padding: 10px;
+    background-color: #600101;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+button:hover{
+    background-color: hsl(0, 100%, 10%);
+}
+
+table {
+    /* margin-left: 120px; */
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: linear-gradient(0deg, rgb(247, 184, 195),rgb(252, 92, 119));
+}
+
+    
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background: linear-gradient(135deg, rgb(253, 28, 65),rgb(253, 151, 168));
+}
+
+
+
+.edit-btn {
+    padding: 3px 4px; 
+    font-size: 12px;   
+    border: none;
+    border-radius: 4px;
+    background-color: #4caf50;
+    color: white;
+}
+
+.delete-btn {
+    padding: 3px 4px; 
+    font-size: 12px;   
+    border: none;
+    border-radius: 4px;
+    background-color: #f44336;
+    color: white;
+}
+.edit-icon, .delete-icon {
+    width: 20px; 
+    height: 20px; 
+    cursor: pointer; 
+    margin: 0 5px; 
+    transition: transform 0.3s ease; 
+}
+
+.edit-icon:hover, .delete-icon:hover {
+    transform: scale(1.2);  
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+#phno-instruction {
+    margin-right: 240px;
+   
+    animation: blink 2s infinite; 
+}
